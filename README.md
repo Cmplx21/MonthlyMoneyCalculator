@@ -51,7 +51,7 @@ qmake -query QT_INSTALL_QML
 2. Open .vscode/settings.json (create it if it doesn't exist) and add the path to the qmlls arguments:  
 ```JSON  
 {  
-    "qt-qml.qmlls.additionalImportPaths": \["/usr/lib/qt/qml"\]
+    "qt-qml.qmlls.additionalImportPaths": ["/usr/lib/qt/qml"]
 }  
 ```
 
